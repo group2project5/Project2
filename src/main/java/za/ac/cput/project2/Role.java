@@ -1,10 +1,8 @@
-//Ethan Swart
-//220126283
 package za.ac.cput.project2;
 
 /**
  *
- * @author 220126283
+ * @author ethan 220126283
  */
 
 public class Role 
@@ -14,8 +12,6 @@ public class Role
 
     public Role() 
     {
-        this.RoleID = 0;
-        this.RoleName = "";
     }
 
     public Role(int RoleID, String RoleName) 
@@ -43,7 +39,5 @@ public class Role
     {
         this.RoleName = RoleName;
     }
-    
-    
-    
+ 
 }

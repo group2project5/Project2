@@ -3,188 +3,184 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package za.ac.cput.project2;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author senzo
+ * @author 220126283
  */
-public class MemberTest {
+public class MemberTest 
+{
     
-    public MemberTest() {
+    public MemberTest() 
+    {
     }
 
-    @org.junit.jupiter.api.BeforeAll
-    public static void setUpClass() throws Exception {
-    }
-
-    @org.junit.jupiter.api.AfterAll
-    public static void tearDownClass() throws Exception {
-    }
-
-    @org.junit.jupiter.api.BeforeEach
-    public void setUp() throws Exception {
-    }
-
-    @org.junit.jupiter.api.AfterEach
-    public void tearDown() throws Exception {
-    }
-    
-    @BeforeAll
-    public static void setUpClass() {
-    }
-    
-    @AfterAll
-    public static void tearDownClass() {
-    }
-    
-    @BeforeEach
-    public void setUp() {
-    }
-    
-    @AfterEach
-    public void tearDown() {
+    /**
+     * Test of getRole method, of class Member.
+     */
+    @Test
+    public void testGetRole() 
+    {
+        System.out.println("getRole");
+        Member instance = new Member();
+        Role expResult = null;
+        Role result = instance.getRole();
+        assertEquals(expResult, result);
     }
 
     /**
      * Test of getMemberID method, of class Member.
      */
-    @org.junit.jupiter.api.Test
-    public void testGetMemberID() {
+    @Test
+    public void testGetMemberID() 
+    {
         System.out.println("getMemberID");
         Member instance = new Member();
         int expResult = 0;
         int result = instance.getMemberID();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
-     * Test of getMFName method, of class Member.
+     * Test of getFName method, of class Member.
      */
-    @org.junit.jupiter.api.Test
-    public void testGetMFName() {
-        System.out.println("getMFName");
+    @Test
+    public void testGetFName() 
+    {
+        System.out.println("getFName");
         Member instance = new Member();
         String expResult = "";
-        String result = instance.getMFName();
+        String result = instance.getFName();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
-     * Test of getMLName method, of class Member.
+     * Test of getLName method, of class Member.
      */
-    @org.junit.jupiter.api.Test
-    public void testGetMLName() {
-        System.out.println("getMLName");
+    @Test
+    public void testGetLName() 
+    {
+        System.out.println("getLName");
         Member instance = new Member();
         String expResult = "";
-        String result = instance.getMLName();
+        String result = instance.getLName();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
-     * Test of getMPhone method, of class Member.
+     * Test of getPhone method, of class Member.
      */
-    @org.junit.jupiter.api.Test
-    public void testGetMPhone() {
-        System.out.println("getMPhone");
+    @Test
+    public void testGetPhone() 
+    {
+        System.out.println("getPhone");
         Member instance = new Member();
         int expResult = 0;
-        int result = instance.getMPhone();
+        int result = instance.getPhone();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
-     * Test of getMEmail method, of class Member.
+     * Test of getEmail method, of class Member.
      */
-    @org.junit.jupiter.api.Test
-    public void testGetMEmail() {
-        System.out.println("getMEmail");
+    @Test
+    public void testGetEmail() 
+    {
+        System.out.println("getEmail");
         Member instance = new Member();
         String expResult = "";
-        String result = instance.getMEmail();
+        String result = instance.getEmail();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of setRole method, of class Member.
+     */
+    @Test
+    public void testSetRole() 
+    {
+        System.out.println("setRole");
+        Role MRole = null;
+        Member instance = new Member();
+        instance.setRole(MRole);
     }
 
     /**
      * Test of setMemberID method, of class Member.
      */
-    @org.junit.jupiter.api.Test
-    public void testSetMemberID() {
+    @Test
+    public void testSetMemberID() 
+    {
         System.out.println("setMemberID");
         int MemberID = 0;
         Member instance = new Member();
         instance.setMemberID(MemberID);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
-     * Test of setMFName method, of class Member.
+     * Test of setFName method, of class Member.
      */
-    @org.junit.jupiter.api.Test
-    public void testSetMFName() {
-        System.out.println("setMFName");
+    @Test
+    public void testSetFName() 
+    {
+        System.out.println("setFName");
         String MFName = "";
         Member instance = new Member();
-        instance.setMFName(MFName);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        instance.setFName(MFName);
     }
 
     /**
-     * Test of setMLName method, of class Member.
+     * Test of setLName method, of class Member.
      */
-    @org.junit.jupiter.api.Test
-    public void testSetMLName() {
-        System.out.println("setMLName");
+    @Test
+    public void testSetLName() 
+    {
+        System.out.println("setLName");
         String MLName = "";
         Member instance = new Member();
-        instance.setMLName(MLName);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        instance.setLName(MLName);
     }
 
     /**
-     * Test of setMPhone method, of class Member.
+     * Test of setPhone method, of class Member.
      */
-    @org.junit.jupiter.api.Test
-    public void testSetMPhone() {
-        System.out.println("setMPhone");
+    @Test
+    public void testSetPhone() 
+    {
+        System.out.println("setPhone");
         int MPhone = 0;
         Member instance = new Member();
-        instance.setMPhone(MPhone);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        instance.setPhone(MPhone);
     }
 
     /**
-     * Test of setMEmail method, of class Member.
+     * Test of setEmail method, of class Member.
      */
-    @org.junit.jupiter.api.Test
-    public void testSetMEmail() {
-        System.out.println("setMEmail");
+    @Test
+    public void testSetEmail() 
+    {
+        System.out.println("setEmail");
         String MEmail = "";
         Member instance = new Member();
-        instance.setMEmail(MEmail);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        instance.setEmail(MEmail);
     }
-    
+
+    /**
+     * Test of equals method, of class Member.
+     */
+    @Test
+    public void testEquals() 
+    {
+        System.out.println("equals");
+        Object obj = null;
+        Member instance = new Member();
+        boolean expResult = false;
+        boolean result = instance.equals(obj);
+        assertEquals(expResult, result);
+    }
+
 }

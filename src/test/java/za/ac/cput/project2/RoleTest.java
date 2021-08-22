@@ -1,5 +1,3 @@
-//220126283
-//Ethan Swart
 package za.ac.cput.project2;
 
 import org.junit.jupiter.api.Test;
@@ -7,18 +5,21 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author 220126283
+ * @author ethan 220126283
  */
-public class RoleTest {
+public class RoleTest 
+{
     
-    public RoleTest() {
+    public RoleTest() 
+    {
     }
 
     /**
      * Test of getRoleID
      */
     @Test
-    public void testGetRoleID() {
+    public void testGetRoleID() 
+    {
         System.out.println("getRoleID");
         Role instance = new Role();
         int expResult = 0;
@@ -30,10 +31,11 @@ public class RoleTest {
      * Test of getRoleName
      */
     @Test
-    public void testGetRoleName() {
+    public void testGetRoleName() 
+    {
         System.out.println("getRoleName");
         Role instance = new Role();
-        String expResult = "";
+        Role expResult = null;
         String result = instance.getRoleName();
         assertEquals(expResult, result);
     }
@@ -42,7 +44,8 @@ public class RoleTest {
      * Test of setRoleID method
      */
     @Test
-    public void testSetRoleID() {
+    public void testSetRoleID() 
+    {
         System.out.println("setRoleID");
         int RoleID = 0;
         Role instance = new Role();
@@ -53,7 +56,8 @@ public class RoleTest {
      * Test of setRoleName method
      */
     @Test
-    public void testSetRoleName() {
+    public void testSetRoleName() 
+    {
         System.out.println("setRoleName");
         String RoleName = "";
         Role instance = new Role();
