@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package za.ac.cput.project2;
 
 import org.junit.jupiter.api.Test;
@@ -10,7 +5,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author 220126283
+ * @author senzo 219345406
+ * @author ethan 220126283
  */
 public class MemberTest 
 {
@@ -20,7 +16,7 @@ public class MemberTest
     }
 
     /**
-     * Test of getRole method, of class Member.
+     * Test of getRole method.
      */
     @Test
     public void testGetRole() 
@@ -33,7 +29,7 @@ public class MemberTest
     }
 
     /**
-     * Test of getMemberID method, of class Member.
+     * Test of getMemberID method.
      */
     @Test
     public void testGetMemberID() 
@@ -46,7 +42,7 @@ public class MemberTest
     }
 
     /**
-     * Test of getFName method, of class Member.
+     * Test of getFName method.
      */
     @Test
     public void testGetFName() 
@@ -59,7 +55,7 @@ public class MemberTest
     }
 
     /**
-     * Test of getLName method, of class Member.
+     * Test of getLName method.
      */
     @Test
     public void testGetLName() 
@@ -72,7 +68,7 @@ public class MemberTest
     }
 
     /**
-     * Test of getPhone method, of class Member.
+     * Test of getPhone method.
      */
     @Test
     public void testGetPhone() 
@@ -85,7 +81,7 @@ public class MemberTest
     }
 
     /**
-     * Test of getEmail method, of class Member.
+     * Test of getEmail method,.
      */
     @Test
     public void testGetEmail() 
@@ -98,7 +94,7 @@ public class MemberTest
     }
 
     /**
-     * Test of setRole method, of class Member.
+     * Test of setRole method.
      */
     @Test
     public void testSetRole() 
@@ -110,7 +106,7 @@ public class MemberTest
     }
 
     /**
-     * Test of setMemberID method, of class Member.
+     * Test of setMemberID method.
      */
     @Test
     public void testSetMemberID() 
@@ -122,7 +118,7 @@ public class MemberTest
     }
 
     /**
-     * Test of setFName method, of class Member.
+     * Test of setFName method.
      */
     @Test
     public void testSetFName() 
@@ -134,7 +130,7 @@ public class MemberTest
     }
 
     /**
-     * Test of setLName method, of class Member.
+     * Test of setLName method.
      */
     @Test
     public void testSetLName() 
@@ -146,7 +142,7 @@ public class MemberTest
     }
 
     /**
-     * Test of setPhone method, of class Member.
+     * Test of setPhone method.
      */
     @Test
     public void testSetPhone() 
@@ -158,7 +154,7 @@ public class MemberTest
     }
 
     /**
-     * Test of setEmail method, of class Member.
+     * Test of setEmail method.
      */
     @Test
     public void testSetEmail() 
@@ -170,7 +166,7 @@ public class MemberTest
     }
 
     /**
-     * Test of equals method, of class Member.
+     * Test of equals method.
      */
     @Test
     public void testEquals() 
