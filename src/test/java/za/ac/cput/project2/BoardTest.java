@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * @author tyrique 219089345
+ *
  * @author ethan 220126283
  */
 public class BoardTest 

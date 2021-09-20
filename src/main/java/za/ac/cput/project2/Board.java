@@ -2,7 +2,6 @@ package za.ac.cput.project2;
 
 /**
  *
- * @author tyrique 219089345
  * @author ethan 220126283
  */
 public class Board 
